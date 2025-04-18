@@ -69,7 +69,7 @@
 	    <HintPath>..\VmmFrost.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
-
+	
 	<Target Name="CopyNativeDLLs" AfterTargets="Build">
 		<ItemGroup>
 			<NativeLibs Include="$(OutputPath)runtimes\win-x64\native\*.dll" />
